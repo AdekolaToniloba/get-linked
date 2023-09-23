@@ -1,0 +1,17 @@
+button {
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 30px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.grow{
+    transition: all .2s ease-in-out;
+}
+
+ .grow:hover {
+    transform: scale(1.1);
+}
+
