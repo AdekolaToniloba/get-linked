@@ -1,3 +1,4 @@
+
 button {
     background: var(--primary-color);
     color: #fff;
@@ -5,6 +6,7 @@ button {
     padding: 15px 30px;
     font-weight: bolder;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .grow{

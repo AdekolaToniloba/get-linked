@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+
 :root {
     --primary-color: linear-gradient(.25turn,#FE34B9, #903AFF);
     --dark-color: #150E28;
@@ -20,10 +23,11 @@ body{
 }
 
 .container {
-    width: 70%;
+    width: 75%;
     max-width: 1400px;
     margin: auto;
 }
+
 
 ul{
     list-style-type: none;
@@ -68,7 +72,7 @@ ul{
 
  hr {
     margin: 0;
-    opacity: 0.5;
+    opacity: 0.2;
  }
 
 
@@ -204,6 +208,12 @@ ul{
     /* left: 25px; */
 }
 
+.hero-hr {
+    width: 75%;
+    margin: 0;
+    position: absolute;
+    bottom: -51px;
+}
 
 /* INTRO */
 .intro {
@@ -211,6 +221,7 @@ ul{
     align-items: center;
     margin-top: 130px;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 .intro-left {
@@ -330,4 +341,214 @@ ul{
     border: none;
     opacity: 0.3;
     /* clip: rect(0, 100px, 200px, 0); */
+}
+
+/* CRITERIA */
+.criteria {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+.crit-left {
+    position: relative;
+}
+
+.crit-img {
+    max-width: 650px;
+    max-height: 580px;
+    margin-top: 3rem;
+}
+
+.crit-purple {
+    max-width: 30px;
+    position: absolute;
+    /* top: 10%; */
+    left: 20%;
+}
+
+.crit-grey {
+    max-width: 30px;
+    position: absolute;
+    top: 54%;
+    left: 58%;
+}
+
+.crit-white {
+    max-width: 30px;
+    position: absolute;
+    top: 90%;
+    left: 85%;
+}
+
+.crit-lens-1 {
+    max-width: 890px;
+    max-height: 890px;
+    position: absolute;
+    top: 15%;
+    left: -25%;
+    z-index: -1;
+    border: none;
+    opacity: 0.8;
+    
+}
+
+.crit-lens-2 {
+    max-width: 600px;
+    max-height: 600px;
+    position: absolute;
+    bottom: -330%;
+    left: 60%;
+    z-index: -1;
+    border: none;
+    opacity: 0.6;
+    
+}
+
+
+.crit-right {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.crit-right  h2{
+    max-width: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.crit-right h2 span {
+    color: var(--purple-color);
+}
+
+.crit-right p {
+    margin-bottom: 1.5rem;
+}
+
+
+.crit-right p span {
+    color: #FE34B9;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* FAQs */
+.faq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.faq-left {
+    position: relative;
+}
+
+.faq-left img {
+    max-width: 30px;
+    position: absolute;
+    left: -10%;
+    bottom: 100%;
+}
+
+.faq-left h2 {
+    max-width: 60%;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.faq-left h2 span {
+    color: var(--purple-color);
+}
+
+.faq-left p  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+
+.faq-left p span {
+    font-weight: bold;
+}
+
+.faq-questions {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 4rem;
+}
+
+.quest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-bottom: solid 2px var(--purple-color);
+}
+
+i {
+    color: var(--purple-color);
+    cursor: pointer;
+}
+
+
+#faq-img {
+    max-width: 600px;
+}
+
+.question-set {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.question-set img:nth-child(1) {
+    /* margin:0 120px; */
+    margin-top: 100px;
+}
+
+.question-set img:nth-child(3) {
+    /* margin:0 120px; */
+    margin-top: 100px;
+}
+
+.faq-right {
+    position: relative;
+}
+
+.faq-gradient-star1 {
+    max-width: 30px;
+    position: absolute;
+    left: 20%;
+    bottom: 54%;
+}
+
+.faq-gradient-star2 {
+    max-width: 30px;
+    position: absolute;
+    left: 60%;
+    bottom: 84%;
+}
+
+.faq-grey-star {
+    max-width: 30px;
+    position: absolute;
+    bottom: 34%;
+    left: 8%;
+}
+
+.faq-white-star {
+    max-width: 30px;
+    position: absolute;
+    bottom: 5%;
+}
+
+/* TIMELINE */
+.timeline {
+    margin-top: 4rem;
+    text-align: center;
 }
